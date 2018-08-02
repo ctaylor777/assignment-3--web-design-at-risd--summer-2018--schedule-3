@@ -1,0 +1,245 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   font-family: Avenir;
+   text-align:center;
+   width:505px;
+   padding-top:48px;
+   padding-bottom:25px;
+   margin: auto;
+}
+
+h1 {
+   color:red;
+   font-size:16pt;
+   font-weight:200;
+   border-bottom:2px black;
+   border-style: solid;
+   padding-bottom:9px;
+}
+
+.content >p {
+   font-weight: 600;
+   font-size: 26pt;
+   padding-top: 18px;
+}
+
+#board {
+   font-family: "letter-gothic-std", monospace;
+   font-style: normal;
+   font-weight:400;
+}
+
+#row-one {
+   padding-top:35px;
+   width:505px;
+   margin:auto;
+   display: flex;
+   justify-content:space-around;
+}
+
+.good-design {
+   position:relative;
+   left:-40px;
+   top:18px;
+}
+
+.good-design > p {
+   font-size:12pt;
+   right:-14px;
+   top: -10px;
+   position:relative;
+}
+
+.good-design img {
+   width:210px;
+   height:82px;
+   position:absolute;
+}
+
+.button-one, .button-two {
+   position:relative;
+   display:flex;
+   right:-30px;
+   top:30px;
+   color:red;
+}
+
+.button-one {
+   left:36px;
+   position:relative;
+}
+
+.button-one > p {
+   position:relative;
+   bottom:-36px;
+   font-size:20pt;
+}
+
+.button-two > p {
+   position:relative;
+   bottom:-36px;
+   font-size:20pt;
+}
+
+#row-one p:nth-child(2) {
+   position:relative;
+   bottom:-36px;
+   font-size:20pt;
+}
+
+#principle-one {
+   /* position:fixed; */
+   display:none;
+}
+
+#img-one:hover + #principle-one {
+   /* z-index: 1; */
+   display:block;
+   background-color: white;
+}
+
+#principle-two {
+   /* position:fixed; */
+   opacity:0;
+}
+
+#img-two:hover + #principle-two {
+   /* z-index: 1; */
+   opacity:1;
+   background-color: white;
+}
+
+img {
+   width:92px;
+   height:94px;
+}
+
+#row-two {
+   display: flex;
+   width:657px;
+   height:200px;
+   margin:auto;
+   padding-top:100px;
+}
+
+.button-nine {
+   position:relative;
+   left: -10px;
+}
+
+#principle-nine {
+   position:relative;
+   opacity:0;
+   font-size:16pt;
+}
+
+#img-nine:hover + #principle-nine {
+   z-index: 1;
+   opacity:1.0;
+   background-color: white;
+}
+
+#principle-ten {
+   position:relative;
+   opacity:0;
+   font-size:16pt;
+}
+
+#img-ten:hover + #principle-ten {
+   z-index: 1;
+   opacity:1.0;
+   background-color: white;
+}
+
+#principle-three {
+   position:relative;
+   opacity:0;
+   font-size:16pt;
+   color:red;
+   width:550px;
+}
+
+#button-three:hover + #principle-three {
+   z-index: 1;
+   opacity:1.0;
+   background-color: white;
+   color:red;
+   width:300px;
+   left:50px;
+}
+
+
+.button-ten, .button-nine {
+   text-align: center;
+   left:-11px;
+   color:red;
+   font-size:20pt;
+}
+
+#button-three {
+   position:relative;
+   text-align: center;
+   right:-101px;
+   top:-41px;
+}
+
+#button-three img {
+   width:190px;
+   height:195px;
+}
+
+#button-three p {
+   position:relative;
+   color:red;
+   font-size:28pt;
+   right:-76px;
+   bottom:-24px;
+}
+
+#row-three {
+   display: flex;
+   width:505px;
+   margin:auto;
+   color:red;
+   top:84px;
+}
+
+.button-eight {
+   left:-12px;
+   position:relative
+}
+
+.button-eight img{
+   position:relative;
+   height:150px;
+   width:167px;
+   top:-76px;
+}
+
+.button-eight p{
+   font-size:20px;
+   left:100px;
+}
+
+.small-buttons {
+   position:relative;
+   display:flex;
+   font-size:15pt;
+   right:-10px;
+}
+
+.small-buttons img {
+   position:relative;
+   width:100px;
+   height:105px;
+}
+
+.small-buttons p {
+   position:relative;
+   top:29px;
+   left:44px;
+}
